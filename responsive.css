@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar button {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar {
+        padding: 0 1rem;
+        background-color: aqua;
+        height: 25vh;
+        text-align: center;
+    }
+
+    .nav1 h1 {
+        font-size: 4rem;
+    }
+
+    .nav2{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        padding: 0.5rem;
+    }
+
+    .nav1 h1 {
+        font-size: 1rem;
+    }
+}

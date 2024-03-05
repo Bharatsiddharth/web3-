@@ -9,6 +9,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: black;
     
 }
 
@@ -260,6 +261,13 @@ html,body{
    /* margin-top: 5vh; */
 }
 
+.dashboard i{
+    background-image: linear-gradient(43deg, rgb(186, 17, 46) 20%,rgba(255, 255, 0, 0.774) 100%);   
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3vw;
+}
+
 
 /* ---------------------------------------------page2 here  */
 
@@ -350,6 +358,7 @@ html,body{
     background: linear-gradient(43deg, rgb(186, 17, 46) 20%,yellow 100%);
     -webkit-background-clip: text;
     color: transparent;
+    padding-right: 1vw;
 }
 
 .left-page2 button{
@@ -508,7 +517,7 @@ html,body{
     
   }
 
-  .img h1{
+  .img h2{
     font-size: 4vw;
     color: red;
   }
@@ -543,17 +552,115 @@ html,body{
 
 
 footer{
-    height: 70vh;
+    height: 60vh;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     padding: 1px;
+    color: rgba(255, 255, 255, 0.82);
+    position: relative;
 }
 
-.card1{
+.blur-footer{
+    height: 25vw;
+    width: 15vw;
+    background: linear-gradient(43deg, rgb(186, 17, 46) 20%,yellow 100%);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(200px);
+    left: 5%;
+    z-index: 999;
+ }
+
+ .blur2-footer{
+    height: 20vw;
+    width: 10vw;
+    background: linear-gradient(43deg, rgb(186, 17, 46) 20%,yellow 100%);
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(150px);
+    /* top: 50%; */
+    /* top: 380%; */
+    right: 0;
+    z-index: 999;
+ }
+
+footer h1{
+    background-image: linear-gradient(43deg, rgb(186, 17, 46) 20%,rgba(255, 255, 0, 0.774) 100%);   
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 4vw;
+    margin-top: 6vw;
+}
+
+.cardss{
+    display: flex;
+}
+
+.card1-footer{
     height: 30vh;
     width: 30%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     /* margin: 3vw; */
-    margin-top: 8vw;
+    /* margin-top: 8vw; */
     margin-left: 4vw;
+}
+
+.card1-footer p{
+    font-size: 1.1vw;
+    padding: 2vw 0;
+    color: gray;
+}
+
+.social img{
+    height: 30px;
+    width: 30px;
+    margin-left: 0.3vw;
+    border-radius: 50%;
+}
+
+
+
+
+.card2-footer,.card3-footer{
+    height: 30vh;
+    width: 20%;
+    /* background-color: blueviolet; */
+    /* margin: 3vw; */
+    /* margin-top: 8vw; */
+    margin-left: 7vw;
+}
+
+
+.card2-footer,.card3-footer h3{
+    padding: 2vw 0;
+    padding-bottom: 0;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
+}
+
+.card2-footer h4{
+    font-size: 1vw;
+    line-height: 1.5;
+    padding-top: 0.5vw;
+}
+
+.card3-footer h4{
+    font-size: 1vw;
+    line-height: 2.5;
+}
+
+
+
+footer .line{
+    height: 0.1px;
+    background-color: white;
+    margin-top: 1vw;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 1vw;
+    font-weight: 100;
+    color: lightgray;
 }
