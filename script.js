@@ -46,7 +46,7 @@ function page1animation(){
   let tl = gsap.timeline();
 
 
-tl.from(".page1 .nav1,button", {
+tl.from(".page1 .nav1,.register", {
   // y:-50,
   duration:1,
   opacity:0,
